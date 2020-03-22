@@ -1,0 +1,32 @@
+Charles (Wautier)
+
+In a glimpse
+  Senior
+  Fullstack Software Engineering
+  & End-to-End Problem Solving
+  Freelancing,
+  in Berlin or remote.
+
+Mentality
+  Understand the business problem in all its dimensions. (facets, decomposition) — River
+  Find a simple and sustainable solution. — Plan of a bridge
+  Implement or find the right partner. — Bridge
+
+Links
+  Find me on LinkedIn
+  Follow me on Medium
+  or contact me per email
+
+Worked (successfully) with:
+  MBIO Bertha, AppLift, PubNative, Tame, Domaine de La Roche Pilée
+
+Educated by
+  Ensimag, KIT,
+  Martin Fowler,
+  Code Complete
+
+Technologies:
+  Fullstack developer (AWS, Serverless) with strong Rails and Go, experience with Lambda
+  [   ...   |   ....  |  ...    ] (learning)
+  [ Lambda, |   ....  |  ...    ] (solid)
+  [   Ops   |   Back  |  Front  ]
