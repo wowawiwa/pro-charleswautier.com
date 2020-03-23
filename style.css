@@ -11,21 +11,27 @@ body {
   color: #222;
 }
 
+/* Blue:
+ *   Ed: #14B4DA
+ *   My: #1474DA
+ *   Ed lighter: 63D6F1
+ * Green: #14DAAC
+ */
 a:link {
   text-decoration: none;
-  color: blue;
+  color: #1474DA;
 }
 
 a:visited {
-  color: blue;
+  color: #1474DA;
 }
 
 a:hover {
-  color: lightblue;
+  color: #14B4DA;
 }
 
 a:active {
-  color: darkblue;
+  color: #14B4DA;
 }
 
 ul {
@@ -65,7 +71,7 @@ ul {
 }
 
 .secondary {
-  color: grey;
+  color: #858E94;
   font-size: 1.5rem;
   /* letter-spacing: 0.025rem; */
 }
