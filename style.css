@@ -44,7 +44,7 @@ ul {
 
 .content {
   max-width: 700px;
-  margin: 6vw auto;
+  margin: calc(4vw + 2rem) auto;
   padding: 0 2rem;
 }
 
@@ -89,9 +89,10 @@ ul {
 }
 
 .id__avatar {
-  max-width: 33%;
-  width: auto;
-  height: 100%;
+  min-width: 100px;
+  max-width: 150px;
+  width: 33%;
+  /* height: 100%; */
   border-radius: 50%;
   margin-right: 2rem;
   margin-left: -0.5rem;
