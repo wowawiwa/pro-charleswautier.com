@@ -6,8 +6,8 @@ body {
 
   background-color: white;
 
-  /* test: font-family: "PT Serif", Georgia, "Times New Roman", serif; */
   font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Chelsea Market', cursive; */
   color: #222;
 }
 
@@ -44,8 +44,8 @@ ul {
 
 .content {
   max-width: 700px;
-  margin: calc(4vw + 2rem) auto;
-  padding: 0 2rem;
+  margin: calc(4vw + 1rem) auto;
+  padding: 0 1.5rem;
 }
 
 .section {
@@ -81,25 +81,21 @@ ul {
 /* id */
 
 .id {
-  height: 125px;
   display: flex;
   align-items: center;
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
 }
 
 .id__avatar {
-  min-width: 100px;
-  max-width: 150px;
-  width: 33%;
-  /* height: 100%; */
-  border-radius: 50%;
   margin-right: 2rem;
-  margin-left: -0.5rem;
+  /* min-width: 150px; */
+  width: 150px;
+  height: auto;
+
+  border-radius: 50%;
 }
 
-.id__name {
-  /* margin: auto; */
+.id__name-container {
+  text-align: center;
 }
 
 /* info */
@@ -116,15 +112,17 @@ ul {
 
 /* contact */
 
+.contact {
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
 .contact ul {
   margin-top: 0.5rem;
 }
 
 .contact li {
   margin-right: 1rem;
-
-  line-height: 1.5;
-  font-size: 1.2rem;
 }
 
 .contact i {
@@ -138,17 +136,21 @@ ul {
 
 .worked {
   /* Removing 1rem top and bottom because logos include it already */
-  margin: 3rem 0 -1rem 0;
+  /* margin: 3rem 0 -1rem 0; */
 }
 
 .worked ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .worked li {
-  flex: 0 1 32%;
+  flex: 0 1 30%;
+  margin-right: 2em;
+}
+.worked li:last-child {
+  margin-right: 0;
 }
 
 .worked img {
@@ -168,11 +170,12 @@ ul {
 }
 
 .educated li {
-  flex: 0 1 25%;
-  margin-right: 1.5em;
+  flex: 0 1 20%;
+  margin-right: 2em;
 }
 
 .educated img {
+  /* filter: grayscale(100%); */
   width: 100%;
   height: 100%;
 }
