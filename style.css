@@ -86,16 +86,18 @@ ul {
 }
 
 .id__avatar {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   /* min-width: 150px; */
   width: 150px;
   height: auto;
 
   border-radius: 50%;
+  flex-shrink: 0.25;
 }
 
 .id__name-container {
   text-align: center;
+  margin-left: 0 1.5rem;
 }
 
 /* info */
