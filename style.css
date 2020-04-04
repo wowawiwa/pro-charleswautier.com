@@ -87,9 +87,9 @@ ul {
 
 .id__avatar {
   margin-right: 1.5rem;
-  /* min-width: 150px; */
   width: 150px;
-  height: auto;
+  /* Fix height for clean loading */
+  height: 150px;
 
   border-radius: 50%;
   flex-shrink: 0.25;
