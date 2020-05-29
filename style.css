@@ -131,7 +131,9 @@ ul {
 
   /* avoid side text moving on page load */
   display: inline-block;
-  width: 2rem;
+  width: 1.5rem;
+  text-align: center;
+  margin-right: 0.75rem;
 }
 
 /* worked */
