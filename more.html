@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name=”robots” content=”noindex”>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Charles Wautier</title>
+
+    <link rel="shortcut icon" type="image/ico" href="assets/favicon.ico"/>
+
+    <script src="https://kit.fontawesome.com/b91cd0625a.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Chelsea+Market&display=swap" rel="stylesheet"> -->
+    <script src="  https://unpkg.com/showdown/dist/showdown.min.js"></script>
+    <link rel="stylesheet" href="global.css">
+  </head>
+  <body>
+    <div class="content">
+      <div id="markdown"></div>
+    </div>
+
+    <script>
+      const converter = new showdown.Converter()
+      converter.setFlavor('github');
+
+      fetch('https://charleswautier.com/more.md').then(async function(response) {
+        const content = await response.text()
+        document.getElementById('markdown').innerHTML = converter.makeHtml(content)
+      })
+    </script>
+  </body>
+</html>
