@@ -1,0 +1,20 @@
+/* globals */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+
+  background-color: white;
+
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Chelsea Market', cursive; */
+  color: #222;
+}
+
+/* layout */
+
+.content {
+  max-width: 700px;
+  margin: calc(4vw + 1rem) auto;
+  padding: 0 1.5rem;
+}
