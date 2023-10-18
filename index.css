@@ -72,13 +72,19 @@ ul {
   /* Fix height for clean loading */
   height: 150px;
 
-  border-radius: 50%;
+  /* border-radius: 45% ; */
+  /* border-radius: 69% 31% 39% 61% / 60% 65% 35% 40% ; */
+  border-radius: 40% 60% 65% 35% / 42% 46% 54% 58%  ;
   flex-shrink: 0.25;
 }
 
 .id__name-container {
   text-align: center;
   margin-left: 0 1.5rem;
+}
+
+.id__name {
+  font-weight: 400;
 }
 
 /* info */
